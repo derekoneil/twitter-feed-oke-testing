@@ -10,7 +10,7 @@ build:
     - install-packages:
         packages: maven
     - script:
-        name: maven build
+        name: maven build 2
         code: mvn clean assembly:assembly
         
 #Push the docker image with our built and tested application to the Oracle Container Registry
